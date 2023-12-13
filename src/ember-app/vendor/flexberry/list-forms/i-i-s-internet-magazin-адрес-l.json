@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-internet-magazin-адрес-e",
+  "editForm": "i-i-s-internet-magazin-адрес-e",
+  "external": false,
+  "caption": "Адрес",
+  "name": "IISInternet_magazinАдресL",
+  "className": "АдресL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-internet-magazin-адрес",
+      "modelProjection": "АдресL"
+    }
+  ]
+}

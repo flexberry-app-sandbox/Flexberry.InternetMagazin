@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-internet-magazin-клиент-e",
+  "editForm": "i-i-s-internet-magazin-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISInternet_magazinКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-internet-magazin-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

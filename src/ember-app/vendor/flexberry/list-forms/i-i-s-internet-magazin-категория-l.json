@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-internet-magazin-категория-e",
+  "editForm": "i-i-s-internet-magazin-категория-e",
+  "external": false,
+  "caption": "Категория",
+  "name": "IISInternet_magazinКатегорияL",
+  "className": "КатегорияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-internet-magazin-категория",
+      "modelProjection": "КатегорияL"
+    }
+  ]
+}

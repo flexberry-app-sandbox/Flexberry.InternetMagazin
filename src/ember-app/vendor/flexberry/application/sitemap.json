@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Internet_magazin",
+  "applicationTitle": "Internet_magazin",
+  "items": [
+    {
+      "link": null,
+      "menuName": "internet-magazin",
+      "caption": "Internet_magazin",
+      "title": "Internet_magazin",
+      "children": [
+        {
+          "link": "i-i-s-internet-magazin-категория-l",
+          "menuName": null,
+          "caption": "Категория",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-internet-magazin-заказы-l",
+          "menuName": null,
+          "caption": "Заказы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-internet-magazin-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-internet-magazin-адрес-l",
+          "menuName": null,
+          "caption": "Адрес",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
+      "children": null
+    }
+  ],
+  "mobile": true
+}

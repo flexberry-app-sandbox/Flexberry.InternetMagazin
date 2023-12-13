@@ -1,0 +1,215 @@
+﻿{
+  "name": "IISInternet_magazinЗаказы",
+  "modelName": "i-i-s-internet-magazin-заказы",
+  "className": "Заказы",
+  "nameSpace": "IIS.Internet_magazin",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "вобработке",
+      "type": "string",
+      "flexberryType": "byte",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "время",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаЗаказа",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "завершен",
+      "type": "string",
+      "flexberryType": "byte",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодАдреса",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодЗаказа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодКлиента",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "адрес",
+      "relatedTo": "i-i-s-internet-magazin-адрес",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиент",
+      "relatedTo": "i-i-s-internet-magazin-клиент",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "товар",
+      "relatedTo": "i-i-s-internet-magazin-товар",
+      "inverse": "заказы"
+    },
+    {
+      "name": "корзина",
+      "relatedTo": "i-i-s-internet-magazin-корзина",
+      "inverse": "заказы"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЗаказыE",
+      "modelName": "i-i-s-internet-magazin-заказы",
+      "attrs": [
+        {
+          "name": "кодЗаказа",
+          "caption": "Код заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаЗаказа",
+          "caption": "Дата заказа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "вобработке",
+          "caption": "Вобработке",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "завершен",
+          "caption": "Завершен",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "кодКлиента",
+          "caption": "Код клиента",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗаказыL",
+      "modelName": "i-i-s-internet-magazin-заказы",
+      "attrs": [
+        {
+          "name": "кодЗаказа",
+          "caption": "Код заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаЗаказа",
+          "caption": "Дата заказа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "вобработке",
+          "caption": "Вобработке",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "завершен",
+          "caption": "Завершен",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "кодКлиента",
+          "caption": "Код клиента",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

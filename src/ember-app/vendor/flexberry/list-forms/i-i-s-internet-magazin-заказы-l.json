@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-internet-magazin-заказы-e",
+  "editForm": "i-i-s-internet-magazin-заказы-e",
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISInternet_magazinЗаказыL",
+  "className": "ЗаказыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-internet-magazin-заказы",
+      "modelProjection": "ЗаказыL"
+    }
+  ]
+}

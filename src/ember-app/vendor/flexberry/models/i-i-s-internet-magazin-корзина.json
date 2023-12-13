@@ -1,0 +1,93 @@
+﻿{
+  "name": "IISInternet_magazinКорзина",
+  "modelName": "i-i-s-internet-magazin-корзина",
+  "className": "Корзина",
+  "nameSpace": "IIS.Internet_magazin",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодЗаказа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодКорзины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодТовара",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказы",
+      "relatedTo": "i-i-s-internet-magazin-заказы",
+      "inverse": "корзина"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КорзинаE",
+      "modelName": "i-i-s-internet-magazin-корзина",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодКорзины",
+          "caption": "Код корзины",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "кодТовара",
+          "caption": "Код товара",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "кодЗаказа",
+          "caption": "Код заказа",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
