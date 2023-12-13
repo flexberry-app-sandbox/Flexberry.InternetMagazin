@@ -22,25 +22,25 @@ export default Controller.extend({
             link: 'i-i-s-internet-magazin-категория-l',
             caption: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-категория-l.caption'),
             title: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-категория-l.title'),
-            icon: 'archive',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-internet-magazin-заказы-l',
             caption: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-заказы-l.caption'),
             title: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-заказы-l.title'),
-            icon: 'tasks',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-internet-magazin-клиент-l',
             caption: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-клиент-l.title'),
-            icon: 'phone',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-internet-magazin-адрес-l',
             caption: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-адрес-l.caption'),
             title: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-адрес-l.title'),
-            icon: 'file',
+            icon: 'chart line',
             children: null
           }]
         }, {
