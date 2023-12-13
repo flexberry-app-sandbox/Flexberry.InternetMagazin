@@ -40,13 +40,13 @@ export default Controller.extend({
             link: 'i-i-s-internet-magazin-клиент-l',
             caption: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-клиент-l.title'),
-            icon: 'chart line',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-internet-magazin-адрес-l',
             caption: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-адрес-l.caption'),
             title: i18n.t('forms.application.sitemap.internet-magazin.i-i-s-internet-magazin-адрес-l.title'),
-            icon: 'table',
+            icon: 'building',
             children: null
           }]
         }, {

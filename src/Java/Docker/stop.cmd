@@ -1,0 +1,1 @@
+docker-compose -p internet_magazin-java down
